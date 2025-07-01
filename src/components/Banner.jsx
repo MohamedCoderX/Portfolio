@@ -85,7 +85,7 @@ const Banner = () => {
         <img
           src={profile}
           alt="ibrahim"
-          loading="lazy"
+          loading="eager"
           className="animate__animated animate__delay-2s animate__fadeInUpBig absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[65vw] max-w-[100%] sm:max-w-[100%] md:w-[40%] z-10"
         />
 
