@@ -1,0 +1,25 @@
+@import "tailwindcss";
+.circle-text{
+  
+  -webkit-animation-name: rotateMe;
+  animation-name: rotateMe;
+  -webkit-animation-duration: 15s;
+  animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+}
+@keyframes rotateMe {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.head{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
