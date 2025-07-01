@@ -20,9 +20,9 @@ import "../App.css";
 
 const Banner = () => {
   return (
-    <section className="relative bg-[#fdf5f3] flex justify-center items-center px-4 overflow-hidden md:py-40 py-20 ">
+    <section className="relative bg-[#fdf5f3] flex justify-center items-center px-4 overflow-hidden md:py-40 py-24 ">
       {/* Socials Left */}
-      <div className="flex -bottom-10 gap-4 md:flex absolute left-19 md:left-3  -translate-y-1/2 md:flex-col md:items-center space-y-5 z-50">
+      <div className="flex -bottom-10 gap-4 md:flex absolute justify-center md:left-3  -translate-y-1/2 md:flex-col md:items-center space-y-5 z-50">
         <p className="hidden md:block text-sm font-bold text-gray-800 mb-2">Find Me:</p>
        
         <a
@@ -91,7 +91,7 @@ const Banner = () => {
 
         {/* Text */}
         <h1 className="text-center mt-12 sm:mt-20">
-          <span className="animate__animated animate__fadeInLeft text-[55px] sm:text-[100px]  md:text-[250px] head text-white border-black block leading-none -top-9  md:top-0 md:left-0 relative" style={{ WebkitTextStroke: "1px black" }}>
+          <span className="animate__animated animate__fadeInLeft text-[60px] sm:text-[100px]  md:text-[250px] head text-white border-black block leading-none -top-9  md:top-0 md:left-0 relative" style={{ WebkitTextStroke: "1px black" }}>
             Full Stack
           </span>
           <span className="animate__animated animate__fadeInRightBig animate__delay-1s text-[40px] sm:text-[80px] md:text-[150px] font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-black via-gray-900 to-black relative z-10 -top-4 ">
