@@ -10,6 +10,7 @@ import {
   FaJava,
   FaGitAlt,
 } from "react-icons/fa";
+import 'animate.css';
 import { FaGithub } from "react-icons/fa";
 
 import { SiJavascript, SiMongodb } from "react-icons/si";
@@ -84,15 +85,15 @@ const Banner = () => {
         <img
           src={profile}
           alt="ibrahim"
-          className="absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[65vw] max-w-[100%] sm:max-w-[100%] md:w-[40%] z-10"
+          className="animate__animated animate__delay-2s animate__fadeInUpBig absolute top-[60%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-[65vw] max-w-[100%] sm:max-w-[100%] md:w-[40%] z-10"
         />
 
         {/* Text */}
         <h1 className="text-center mt-12 sm:mt-20">
-          <span className="text-[55px] sm:text-[100px]  md:text-[250px] head text-white border-black block leading-none -top-9  md:top-0 md:left-0 relative" style={{ WebkitTextStroke: "1px black" }}>
+          <span className="animate__animated animate__fadeInLeft text-[55px] sm:text-[100px]  md:text-[250px] head text-white border-black block leading-none -top-9  md:top-0 md:left-0 relative" style={{ WebkitTextStroke: "1px black" }}>
             Full Stack
           </span>
-          <span className="text-[40px] sm:text-[80px] md:text-[150px] font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-black via-gray-900 to-black relative z-10 -top-4 ">
+          <span className="animate__animated animate__fadeInRightBig animate__delay-1s text-[40px] sm:text-[80px] md:text-[150px] font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-black via-gray-900 to-black relative z-10 -top-4 ">
             Developer
           </span>
         </h1>
